@@ -144,15 +144,6 @@ The embedding model is downloaded from Hugging Face and runs locally in the note
 - The pipeline depends on external Groq model availability, API limits, and the Colab runtime environment.
 - This project does not constitute clinical validation, safety testing, or a substitute for professional medical judgment.
 
-## Potential Improvements
-
-- Increase the size and diversity of the benchmark and have reference answers independently reviewed.
-- Evaluate retrieval separately using Recall@k, Mean Reciprocal Rank (MRR), or nDCG.
-- Compare chunk-based retrieval with heading/subheading-based retrieval.
-- Validate that generated source citations point to the passages that support each claim.
-- Add automated regression tests for retrieval and answer generation.
-- Implement and test multi-turn conversation memory.
-- Evaluate tables, scanned PDFs, and varied question formulations.
 
 ## Learning Outcomes
 
